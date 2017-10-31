@@ -1,0 +1,27 @@
+kema_main_homepage:
+    path:     /
+    defaults: { _controller: KemaMainBundle:Main:index }
+
+kema_main_apropos:
+    path:     /apropos
+    defaults: { _controller: KemaMainBundle:Main:about }
+kema_main_vision:
+    path:     /visions
+    defaults: { _controller: KemaMainBundle:Main:vision }
+
+kema_main_actualites:
+    path:     /actualites
+    defaults: { _controller: KemaMainBundle:Main:actualites }
+
+kema_main_realisations:
+    path:     /realisations
+    defaults: { _controller: KemaMainBundle:Main:realisations }
+
+kema_main_proceduresFormulaires:
+    path:     /proceduresFormulaires
+    defaults: { _controller: KemaMainBundle:Main:proceduresFormulaires }
+
+kema_main_contact:
+    path:     /contact
+    defaults: { _controller: KemaMainBundle:Main:contact }
+

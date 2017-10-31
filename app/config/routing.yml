@@ -1,0 +1,4 @@
+kema_main:
+    resource: "@KemaMainBundle/Resources/config/routing.yml"
+    prefix:   /
+
